@@ -1,3 +1,6 @@
+## 산업분류 자동화 인공지능 모델 개발
+Using KoBart,KoBigBird, and KoElectra models, our team tuned the pretrained models to classifiy given industrial tags in Korean. Then, we averaged the proabibilities from each model and conducted a vote. 
+
 ## Folder Structure
 
 ```
