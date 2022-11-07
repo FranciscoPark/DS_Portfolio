@@ -1,0 +1,55 @@
+# Debug set to true in order to debug high-layer code.
+# CFG Configuration
+# yaml, json 외에도 두 가지 방식이 더 있긴 함.
+# --arguments 뇌절 vs file 방식
+
+# Make different config.yaml file for each models
+CFG:
+  TRAIN_PATH: "/home/ubuntu/kostat-ver2/data/1. 실습용자료.txt"
+  TEST_PATH: "/home/ubuntu/kostat-ver2/data/2. 모델개발용자료.txt"
+
+  DEVICE: 1
+  DEBUG: false
+  num_workers: 10
+  train_batch_size: 256
+  val_batch_size: 128
+
+  # Train configuration
+  TRAIN_TOKENIZER: false
+  PREPROCESS: false
+  num_epochs: 6 # validation loss is increasing after 5 epochs
+  max_token_length: 32
+  learning_rate: 0.00008 # has to be set as float explicitly due to https://stackoverflow.com/questions/30458977/yaml-loads-5e-6-as-string-and-not-a-number
+  weight_decay: 0.01 # https://paperswithcode.com/method/weight-decay
+  adam_beta_1: 0.9
+  adam_beta_2: 0.98
+  epsilon: 0.000000001
+  gamma: 0.8
+
+  # Translation settings
+  #model_name: "tunib/electra-ko-base" # "klue/roberta-large" or "gogamza/kobart-base-v2"
+  #trainer: "huggingface" # or custom
+
+  model_name: "gogamza/kobart-base-v2"
+  trainer: "lightning"
+
+  # transformer settings
+  loss: "crossentropy"
+  activation_function: "gelu"
+  dropout: 0.1
+
+  # wandb settings
+  user_name: "jangjk"
+  project_name: "KoSTAT"
+  entity_name: "poolc" # organization name: https://wandb.ai/poolc
+  wandb_run_name: "KoBART_RUN_Apr13_01"
+  evaluation_strategy: "steps"
+  save_steps: 1000
+  evaluation_steps: 1000
+
+  # path settings
+  ROOT_PATH: "."
+  result_dir: "./results"
+  saved_model_dir: "/home/ubuntu/kostat-ver2/lightning_save"
+  final_model_ckpt: "/home/ubuntu/kostat-ver2/kobart/saves/KoBART_4e-05_128_CrossEntropy.ckpt"
+  logging_dir: "./logs"
