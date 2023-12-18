@@ -9,10 +9,15 @@ K_means with IRIS data: https://github.com/FranciscoPark/DS_Portfolio/blob/main/
 ### Implemented under Google Colab
 
 2NN: https://github.com/FranciscoPark/DS_Portfolio/blob/main/mldl/2nn.ipynb
+
 CNN: https://github.com/FranciscoPark/DS_Portfolio/blob/main/mldl/cnn.ipynb
+
 KNN: https://github.com/FranciscoPark/DS_Portfolio/blob/main/mldl/knn.ipynb
+
 RNN: https://github.com/FranciscoPark/DS_Portfolio/blob/main/mldl/rnn.ipynb
+
 seq2seq: https://github.com/FranciscoPark/DS_Portfolio/blob/main/mldl/cnn.ipynb
+
 vit: https://github.com/FranciscoPark/DS_Portfolio/blob/main/mldl/vit.ipynb
 ## Natural Language Processing
 KSPI_Competition_using_pre_trained_NLP_Models: https://github.com/FranciscoPark/DS_Portfolio/tree/main/code
