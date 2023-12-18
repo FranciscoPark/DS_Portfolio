@@ -7,6 +7,7 @@ Style_Transfer: https://github.com/FranciscoPark/DS_Portfolio/blob/main/Style_Tr
 ## Machine Learning
 K_means with IRIS data: https://github.com/FranciscoPark/DS_Portfolio/blob/main/K_Means.ipynb
 ### Implemented under Google Colab
+
 2NN: https://github.com/FranciscoPark/DS_Portfolio/blob/main/mldl/2nn.ipynb
 CNN: https://github.com/FranciscoPark/DS_Portfolio/blob/main/mldl/cnn.ipynb
 KNN: https://github.com/FranciscoPark/DS_Portfolio/blob/main/mldl/knn.ipynb
