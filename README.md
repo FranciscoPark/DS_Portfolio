@@ -21,5 +21,4 @@ KSPI_Competition_using_pre_trained_NLP_Models: https://github.com/FranciscoPark/
 ## EDA
 GGPlot: https://github.com/FranciscoPark/DS_Portfolio/blob/main/ggplot_plotnine.ipynb
 GGPlot2:https://github.com/FranciscoPark/DS_Portfolio/blob/main/Plotting_stats_with_ggplot.ipynb
-
-Draft
+League of Legends champions analysis: https://github.com/FranciscoPark/lol_champs
