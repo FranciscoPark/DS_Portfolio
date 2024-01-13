@@ -1,0 +1,31 @@
+CFG:
+  debug: True
+  image_path: "C:/Users/user/Documents/GitHub/DS_Portfolio/clip/dataset/Images"
+  captions_path: "C:/Users/user/Documents/GitHub/DS_Portfolio/clip/dataset"
+  batch_size: 8
+  num_workers: 0
+  lr: 0.001
+  weight_decay: 0.001
+  patience: 2
+  factor: 0.5
+  epochs: 5
+
+  model_name: 'resnet50'
+  image_embedding: 2048
+  text_encoder_model: "huawei-noah/TinyBERT_General_4L_312D"
+  text_embedding: 768
+  text_tokenizer: "huawei-noah/TinyBERT_General_4L_312D"
+  max_length: 200
+
+  pretrained: False  # for both image encoder and text encoder
+  trainable: False
+  temperature: 0.07
+
+  # image size
+  size: 224
+
+  # for projection head; used for both image and text encoders
+  num_projection_layers: 1
+  projection_dim: 256
+  dropout: 0.1
+
