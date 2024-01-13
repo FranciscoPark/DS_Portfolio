@@ -19,6 +19,6 @@ vit: https://github.com/FranciscoPark/DS_Portfolio/blob/main/mldl/vit.ipynb<br /
 KSPI_Competition_using_pre_trained_NLP_Models: https://github.com/FranciscoPark/DS_Portfolio/tree/main/code
 
 ## EDA
-GGPlot: https://github.com/FranciscoPark/DS_Portfolio/blob/main/ggplot_plotnine.ipynb
-GGPlot2:https://github.com/FranciscoPark/DS_Portfolio/blob/main/Plotting_stats_with_ggplot.ipynb
-League of Legends champions analysis: https://github.com/FranciscoPark/lol_champs
+GGPlot: https://github.com/FranciscoPark/DS_Portfolio/blob/main/ggplot_plotnine.ipynb<br />
+GGPlot2:https://github.com/FranciscoPark/DS_Portfolio/blob/main/Plotting_stats_with_ggplot.ipynb<br />
+League of Legends champions analysis: https://github.com/FranciscoPark/lol_champs<br />
