@@ -6,6 +6,9 @@ This is my Data Science diary. 📔
 Style_Transfer: https://github.com/FranciscoPark/DS_Portfolio/blob/main/Style_Transfer_CNN.pdf
 ## Machine Learning
 K_means with IRIS data: https://github.com/FranciscoPark/DS_Portfolio/blob/main/K_Means.ipynb
+
+## Amatuer Tennis Ball Court detection 
+Project Github: https://github.com/FranciscoPark/SurAI
 ### Implemented under Google Colab
 
 2NN: https://github.com/FranciscoPark/DS_Portfolio/blob/main/mldl/2nn.ipynb<br />
