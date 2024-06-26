@@ -25,3 +25,7 @@ KSPI_Competition_using_pre_trained_NLP_Models: https://github.com/FranciscoPark/
 GGPlot: https://github.com/FranciscoPark/DS_Portfolio/blob/main/ggplot_plotnine.ipynb<br />
 GGPlot2:https://github.com/FranciscoPark/DS_Portfolio/blob/main/Plotting_stats_with_ggplot.ipynb<br />
 League of Legends champions analysis: https://github.com/FranciscoPark/lol_champs<br />
+
+## Reinforcement Project with Python-Mini-Metro Game(Group Project)
+### Implementation was used and modified from https://github.com/yanfengliu/python_mini_metro
+RL: https://github.com/FranciscoPark/rl_mini_metro <br />
