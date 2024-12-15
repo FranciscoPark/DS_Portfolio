@@ -29,3 +29,7 @@ League of Legends champions analysis: https://github.com/FranciscoPark/lol_champ
 ## Reinforcement Project with Python-Mini-Metro Game(Group Project)
 ### Implementation was used and modified from https://github.com/yanfengliu/python_mini_metro
 RL: https://github.com/FranciscoPark/rl_mini_metro <br />
+
+## RAG with LangChain Framework(Group Project)
+### Manual PDF -> file-> vecterDB-> LLM Langchain-> QnA 
+https://github.com/FranciscoPark/BKMS2 <br />
