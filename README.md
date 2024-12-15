@@ -32,4 +32,5 @@ RL: https://github.com/FranciscoPark/rl_mini_metro <br />
 
 ## RAG with LangChain Framework(Group Project)
 ### Manual PDF -> file-> vecterDB-> LLM Langchain-> QnA 
+https://github.com/FranciscoPark/BKMS2/blob/main/BKMS2_Team8_report%20(Team%20RAGG).pdf
 https://github.com/FranciscoPark/BKMS2 <br />
